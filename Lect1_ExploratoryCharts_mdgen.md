@@ -34,7 +34,7 @@ Boxplot
 
     boxplot(pollution$pm25, col = "blue")
 
-![](boxplot_1.jpeg)
+![](Img/boxplot_1.jpeg)
 
 Histogram
 ---------
@@ -42,7 +42,7 @@ Histogram
     hist(pollution$pm25, col = "green")
     rug(pollution$pm25)
 
-![](boxplot_2.jpeg)
+![](Img/boxplot_2.jpeg)
 
 Change the breaks
 =================
@@ -53,7 +53,7 @@ You play around with the breaks to have the number of bars you like
     hist(pollution$pm25, col = "green", breaks = 100)
     rug(pollution$pm25)
 
-![](hist_1.jpeg)
+![](Img/hist_1.jpeg)
 
 Overlaying Features
 ===================
@@ -61,7 +61,7 @@ Overlaying Features
     boxplot(pollution$pm25, col = "blue")
     abline(h = 12)
 
-![](hist_2.jpeg)
+![](Img/hist_2.jpeg)
 
 Inserting lines
 ===============
@@ -70,7 +70,7 @@ Inserting lines
     abline(v = 12, lwd = 2)
     abline(v = median(pollution$pm25), col = "magenta", lwd = 4)
 
-![](hist_3.jpeg)
+![](Img/hist_3.jpeg)
 
 Barplot
 -------
@@ -80,4 +80,4 @@ To summarise a cathegorical variable
 
     barplot(table(pollution$region), col = "wheat", main = "Number of Counties in Each Region")
 
-![](barplot_1.jpeg)
+![](Img/barplot_1.jpeg)
