@@ -7,7 +7,7 @@ Base Plotting Functions
 -   **text**: add text labels specifying x,y coord
 -   **title**: add annotations to x, y, labels, title, subtitle, margin
 -   **mtext**: add arbitrary text to margins (in or out) of the plot
--   **axos**: adding axis ticks/labels
+-   **axis**: adding axis ticks/labels
 
 <!-- -->
 
